@@ -14,7 +14,7 @@ int main (void) /*Then we start the actual code, and that's with the keyword int
  */
  { //we see is this brace, an open brace means begin the code. 
     int miles = 26, yards = 385; //declaration with initialization. Miles and yards are identifiers
-    double kilometers;
+    int kilometers;
 
     kilometers = 1.609 * (miles + yards / 1760.0); // note 1760.0 The reason that we didn't choose to use 1760 is that yards is an integer, this would be an integer, and if we did this without making this in effect a double constant, then this would have given rise to 0. 
     printf("\nA marathon  is %lf kilometers. \n\n", kilometers);

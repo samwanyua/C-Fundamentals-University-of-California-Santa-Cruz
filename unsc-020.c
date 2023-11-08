@@ -6,7 +6,7 @@ int main(void)
 {
 
     /*
-    The ehile statement
+    The while statement
     while (expression)
         statement
     Semantics:
